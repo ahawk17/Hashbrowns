@@ -1,5 +1,5 @@
 import java.util.HashSet; //have to import the HashSet code
-import java.util.Iterator;
+import java.util.Iterator; //have to import the iterator code
 
 public class Hashbrowns {
     public static void main(String[] args ){
@@ -37,7 +37,7 @@ public class Hashbrowns {
         //Real iterator time
         Iterator<Integer> it = ball.iterator(); //this method allows us to iterate through the hashset, it return an
         // iterator object so we created one called "it".
-        
+
 
     }
 }
