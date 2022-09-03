@@ -29,15 +29,14 @@ public class Hashbrowns {
         num.add(22);
         num.add(45);
 
-        //You can iterate through elements by making the hashset into an array:
-        Object[] ball = num.toArray(); //this new array is an object
-        System.out.println(ball); //prints jibberish because that is where the array is in memory
-        System.out.println(ball[0]); //the first element can be any of the numbers because Hashsets have no order
-
         //Real iterator time
-        Iterator<Integer> it = ball.iterator(); //this method allows us to iterate through the hashset, it return an
+        Iterator<Integer> it = num.iterator(); //this method allows us to iterate through the hashset, it return an
         // iterator object so we created one called "it".
-
+        while (it.hasNext()) { //while it still has values
+            System.out.println(it.next());
+        }
 
     }
 }
+
+
